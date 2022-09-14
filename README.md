@@ -8,6 +8,8 @@ It is extremely easy to create one with all default settings. Generally, you wou
 Let's create a logger that prints logs to the console:
 
 ```go
+package main
+
 import (
     log "github.com/magicst0ne/go-clog"
 )
