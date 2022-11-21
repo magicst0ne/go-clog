@@ -11,7 +11,7 @@ Let's create a logger that prints logs to the console:
 package main
 
 import (
-    log "github.com/magicst0ne/go-clog"
+    log "github.com/ninepeach/go-clog"
 )
 
 func init() {
