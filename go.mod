@@ -1,4 +1,4 @@
-module github.com/magicst0ne/go-clog
+module github.com/ninepeach/go-clog
 
 go 1.19
 

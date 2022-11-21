@@ -234,7 +234,7 @@ You can implement your own logger and all the concurrency stuff are handled auto
 Here is an example which sends all logs to a channel, we call it `chanLogger` here:
 
 ```go
-import log "github.com/magicst0ne/go-clog"
+import log "github.com/ninepeach/go-clog"
 
 type chanConfig struct {
     c chan string
