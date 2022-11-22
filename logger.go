@@ -74,7 +74,7 @@ func (m *manager) len() int {
 // write attempts to send message to all loggers.
 func (m *manager) write(level Level, skip int, format string, v ...interface{}) {
 	if mgr.len() == 0 {
-		err := log.NewConsole()
+		err := NewConsole()
     		if err != nil {
 		    errLogger.Print(errSprintf("[clog] no logger is available"))
 		    return
