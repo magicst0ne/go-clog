@@ -37,7 +37,7 @@ The code inside `init` function is equivalent to the following:
 func init() {
     err := log.NewConsole(0, 
         log.ConsoleConfig{
-            Level: log.LevelTrace,
+            Level: log.LevelDebug,
         },
     )
     if err != nil {
@@ -52,7 +52,7 @@ Or expand further:
 func init() {
     err := log.NewConsoleWithName(log.DefaultConsoleName, 0, 
         log.ConsoleConfig{
-            Level: log.LevelTrace,
+            Level: log.LevelDebug,
         },
     )
     if err != nil {
